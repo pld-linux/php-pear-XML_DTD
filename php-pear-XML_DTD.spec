@@ -32,11 +32,11 @@ This class has in PEAR status: %{_status}.
 
 %description -l pl
 Ta klasa s³u¿y do analizowania plików DTD i sprawdzania poprawno¶ci
-plików XML wzglêdem DTD. Kontrola poprawno¶ci XML jest wykonywana
+plików XML wzglêdem DTD. Kontrola poprawno¶ci XML-a jest wykonywana
 analizatorem php sax, rozszerzeniem xml, bez u¿ycia rozszerzenia
 domxml.
 
-Aktualnie pakiet obs³uguje wiêkszo¶æ aktualnej specyfikacji XML,
+Aktualnie pakiet obs³uguje wiêkszo¶æ aktualnej specyfikacji XML-a,
 w³±cznie z encjami, elementami i atrybutami. Niektóre rzadko u¿ywane
 czê¶ci specyfikacji mog± byæ jeszcze nie obs³ugiwane.
 
