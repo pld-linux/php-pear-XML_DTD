@@ -28,7 +28,7 @@ Currently supports most of current XML specification, including
 entities, elements and attributes. Some uncommon parts of the
 specification may still be unsupported.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Ta klasa s³u¿y do analizowania plików DTD i sprawdzania poprawno¶ci
