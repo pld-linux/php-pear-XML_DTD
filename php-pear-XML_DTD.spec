@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Parsing of DTD files and DTD validation of XML files. The XML
-validation is done with the php sax parser, the xml extension, it does
+validation is done with the PHP sax parser, the xml extension, it does
 not use the domxml extension.
 
 Currently supports most of current XML specification, including
@@ -33,7 +33,7 @@ In PEAR status of this package is: %{_status}.
 %description -l pl
 Ta klasa s³u¿y do analizowania plików DTD i sprawdzania poprawno¶ci
 plików XML wzglêdem DTD. Kontrola poprawno¶ci XML-a jest wykonywana
-analizatorem php sax, rozszerzeniem xml, bez u¿ycia rozszerzenia
+analizatorem PHP sax, rozszerzeniem xml, bez u¿ycia rozszerzenia
 domxml.
 
 Aktualnie pakiet obs³uguje wiêkszo¶æ aktualnej specyfikacji XML-a,
