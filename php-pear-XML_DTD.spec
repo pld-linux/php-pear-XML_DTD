@@ -9,6 +9,7 @@ Summary(pl):	%{_pearname} - analizowanie plików DTD oraz sprawdzanie DTD plików 
 Name:		php-pear-%{_pearname}
 Version:	0.4.2
 Release:	3
+Epoch:		0
 License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
