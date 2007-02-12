@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - parsing of DTD files and DTD validation of XML files
-Summary(pl.UTF-8):   %{_pearname} - analizowanie plików DTD oraz sprawdzanie DTD plików XML
+Summary(pl.UTF-8):	%{_pearname} - analizowanie plików DTD oraz sprawdzanie DTD plików XML
 Name:		php-pear-%{_pearname}
 Version:	0.4.2
 Release:	3
@@ -49,7 +49,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
