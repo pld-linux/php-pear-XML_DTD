@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - parsing of DTD files and DTD validation of XML files
-Summary(pl):	%{_pearname} - analizowanie plików DTD oraz sprawdzanie DTD plików XML
+Summary(pl.UTF-8):   %{_pearname} - analizowanie plikÃ³w DTD oraz sprawdzanie DTD plikÃ³w XML
 Name:		php-pear-%{_pearname}
 Version:	0.4.2
 Release:	3
@@ -35,21 +35,21 @@ specification may still be unsupported.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ta klasa s³u¿y do analizowania plików DTD i sprawdzania poprawno¶ci
-plików XML wzglêdem DTD. Kontrola poprawno¶ci XML-a jest wykonywana
-analizatorem PHP sax, rozszerzeniem xml, bez u¿ycia rozszerzenia
+%description -l pl.UTF-8
+Ta klasa sÅ‚uÅ¼y do analizowania plikÃ³w DTD i sprawdzania poprawnoÅ›ci
+plikÃ³w XML wzglÄ™dem DTD. Kontrola poprawnoÅ›ci XML-a jest wykonywana
+analizatorem PHP sax, rozszerzeniem xml, bez uÅ¼ycia rozszerzenia
 domxml.
 
-Aktualnie pakiet obs³uguje wiêkszo¶æ aktualnej specyfikacji XML-a,
-w³±cznie z encjami, elementami i atrybutami. Niektóre rzadko u¿ywane
-czê¶ci specyfikacji mog± byæ jeszcze nie obs³ugiwane.
+Aktualnie pakiet obsÅ‚uguje wiÄ™kszoÅ›Ä‡ aktualnej specyfikacji XML-a,
+wÅ‚Ä…cznie z encjami, elementami i atrybutami. NiektÃ³re rzadko uÅ¼ywane
+czÄ™Å›ci specyfikacji mogÄ… byÄ‡ jeszcze nie obsÅ‚ugiwane.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -58,7 +58,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
