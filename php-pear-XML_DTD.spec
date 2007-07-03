@@ -35,6 +35,8 @@ specification may still be unsupported.
 
 In PEAR status of this package is: %{_status}.
 
+NOTE: This package is not maintained.
+
 %description -l pl.UTF-8
 Ta klasa służy do analizowania plików DTD i sprawdzania poprawności
 plików XML względem DTD. Kontrola poprawności XML-a jest wykonywana
