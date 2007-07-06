@@ -49,6 +49,8 @@ części specyfikacji mogą być jeszcze nie obsługiwane.
 
 Ta klasa ma w PEAR status: %{_status}.
 
+UWAGA: ten pakiet nie jest już utrzymywany.
+
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
