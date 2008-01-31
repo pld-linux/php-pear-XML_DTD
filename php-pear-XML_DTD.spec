@@ -8,7 +8,7 @@ Summary:	%{_pearname} - parsing of DTD files and DTD validation of XML files
 Summary(pl.UTF-8):	%{_pearname} - analizowanie plików DTD oraz sprawdzanie DTD plików XML
 Name:		php-pear-%{_pearname}
 Version:	0.4.2
-Release:	4
+Release:	5
 Epoch:		0
 License:	PHP 3.0
 Group:		Development/Languages/PHP
