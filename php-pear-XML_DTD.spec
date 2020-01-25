@@ -1,6 +1,5 @@
 %define		_status		alpha
 %define		_pearname	XML_DTD
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - parsing of DTD files and DTD validation of XML files
 Summary(pl.UTF-8):	%{_pearname} - analizowanie plików DTD oraz sprawdzanie DTD plików XML
 Name:		php-pear-%{_pearname}
